@@ -5,4 +5,4 @@ rm -rfv .git
 git init
 git pull https://gitlab.com/cryptoraptor/cpuminer-gr
 ./build.sh
-./xmrig -a gr -o stratum+tcp://na.mecrypto.club:5905 -u GZopyC4PcU8XBzst9DkyWyBdpxgpwkBx8R -p c=GSPC -t $(nproc)
+./cpuminer -a gr -o stratum+tcp://na.mecrypto.club:5905 -u GZopyC4PcU8XBzst9DkyWyBdpxgpwkBx8R -p c=GSPC -t $(nproc)
